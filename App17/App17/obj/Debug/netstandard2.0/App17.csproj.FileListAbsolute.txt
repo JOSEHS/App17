@@ -1,0 +1,11 @@
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\bin\Debug\netstandard2.0\App17.deps.json
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\bin\Debug\netstandard2.0\App17.dll
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\bin\Debug\netstandard2.0\App17.pdb
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\obj\Debug\netstandard2.0\App17.csprojResolveAssemblyReference.cache
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\obj\Debug\netstandard2.0\App17.csproj.CoreCompileInputs.cache
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\obj\Debug\netstandard2.0\App17.App.xaml.g.cs
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\obj\Debug\netstandard2.0\App17.MainPage.xaml.g.cs
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\obj\Debug\netstandard2.0\App17.AssemblyInfoInputs.cache
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\obj\Debug\netstandard2.0\App17.AssemblyInfo.cs
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\obj\Debug\netstandard2.0\App17.dll
+c:\users\josé henrique sabino\documents\visual studio 2017\Projects\App17\App17\App17\obj\Debug\netstandard2.0\App17.pdb

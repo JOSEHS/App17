@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App17"
+             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             x:Class="App17.MainPage">
+
+    <ContentView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <ListView Grid.Column="0" HasUnevenRows="False" RowHeight="100" x:Name="Lista" SeparatorVisibility="Default"  HorizontalOptions="Center" VerticalOptions="Center">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid BackgroundColor="White" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                
+                                <Image Source="{Binding Imagem}" Margin="3" Grid.Row="0" HeightRequest="20" WidthRequest="20" />
+                              
+                                <Label Text="{Binding Nome}" Margin="3" Grid.Row="1" TextColor="#000000"/>
+                            </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                
+                <Grid Grid.Column="1">
+                <cv:CarouselViewControl x:Name="carousel"
+        ItemsSource="{Binding MyItemsSource}"
+        ShowArrows="False"
+        ShowIndicators="true"
+        PositionSelectedCommand="{Binding MyCommand}"
+        PositionSelected="Handle_PositionSelected"
+        Scrolled="Handle_Scrolled"
+        Orientation="Horizontal"/>
+            </Grid>
+        </Grid>
+    </ContentView>
+
+</ContentPage>
